@@ -10,4 +10,8 @@ public class HomeController {
     public String Home() {
         return "Welcome to Crypto Dashboard";
     }
+    @GetMapping("/api")
+    public String api() {
+        return "Welcome to Crypto Dashboard API";
+    }
 }
